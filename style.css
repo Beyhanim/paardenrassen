@@ -1,0 +1,87 @@
+/* Algemeen voor de pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #503e27; /* donkerbruin */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #94826b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin: 20px 0;
+    padding-bottom: 80px; /* Om ruimte te creëren boven de vaste footer */
+}
+
+/* Tabel stijlen */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Achtergrondkleuren voor kolom 1 */
+#A1 {
+    background-color: #81ef9b; /* Cel A1 */
+}
+
+#B1 {
+    background-color: #42be42; /* Cel B1 */
+}
+
+#C1 {
+    background-color: #367144; /* Cel C1 */
+}
+
+#D1 {
+    background-color: #3f5648; /* Cel D1 */
+}
+
+/* Achtergrondkleuren voor kolom 3 */
+#A3 {
+    background-color: #8ec3ee; /* Cel A3 */
+}
+
+#B3 {
+    background-color: #4f97ae; /* Cel B3 */
+}
+
+#C3 {
+    background-color: #190abf; /* Cel C3 */
+}
+
+#D3 {
+    background-color: #0a1235; /* Cel D3 */
+}
+
+
+
+
+/* Afbeelding instellingen */
+img {
+    width: 300px;
+    height: 175px;
+    object-fit: cover;
+}
